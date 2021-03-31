@@ -1,0 +1,61 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); ;
+    /*to center align a box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height : 85vh;
+    width: 80vw;
+    background-color: rgb(4, 4, 68);
+    border-radius: 10px;   
+}
+
+.ball{
+    /*to make circle in css*/
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(84, 209, 121);
+    position: fixed;
+    top: 50vh;
+    left: 50vh;
+}
+.paddle{
+    background-color: orange;
+    height: 120px;
+    width: 15px;
+    position: fixed;
+    border-radius: 2px;
+}
+.left{
+    top: 45vh;
+    left: 25vh;
+}
+.right{
+    top: 45vh;
+    right: 25vh;
+}
+.fa-circle{
+    color:burlywood;
+    font-size: 32px;
+}
+.scoreBoard{
+    display:flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+.separator{
+    width: 40px;
+    height: 70%;
+    background-color: black;
+}
